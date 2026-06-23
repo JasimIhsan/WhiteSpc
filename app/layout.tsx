@@ -72,8 +72,10 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className="m-0 bg-paper text-ink font-body text-base leading-relaxed bg-[linear-gradient(90deg,rgba(22,22,21,0.045)_1px,transparent_1px),linear-gradient(rgba(22,22,21,0.035)_1px,transparent_1px)] bg-[size:64px_64px]">
+        {children}
+      </body>
     </html>
   );
 }
