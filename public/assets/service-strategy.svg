@@ -1,0 +1,8 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Strategy illustration</title>
+  <desc id="desc">Abstract target and direction marks.</desc>
+  <rect x="22" y="24" width="116" height="116" fill="#F8F7F2" stroke="#161615" stroke-width="3"/>
+  <rect x="44" y="46" width="72" height="72" fill="#DFE56A" stroke="#161615" stroke-width="3"/>
+  <path d="M80 38V122M38 80H122" stroke="#161615" stroke-width="3"/>
+  <path d="M55 101L78 76L94 88L112 55" stroke="#C35B35" stroke-width="7" stroke-linejoin="bevel"/>
+</svg>
